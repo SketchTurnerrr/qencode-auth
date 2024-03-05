@@ -68,8 +68,7 @@ export function CreateNewPassword() {
         navigate({ to: '/' });
       } else {
         const data = await response.json();
-        toast.error(data.detail);
-        console.error('Password reset failed:', response.statusText);
+        toast.error(data.detail[0].error);
       }
     } catch (error) {
       console.error('Password reset failed:', error);
