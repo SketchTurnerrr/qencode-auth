@@ -68,7 +68,7 @@ export function ForgotPassword() {
   }
 
   return (
-    <div className="flex flex-col w-[400px]">
+    <div className="flex flex-col min-w-[317px] md:min-w-[400px]">
       <h1 className="text-[30px] font-bold mb-[40px] text-center">
         Forgot Password?
       </h1>
