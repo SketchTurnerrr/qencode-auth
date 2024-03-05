@@ -1,5 +1,4 @@
-import { Link, Outlet, createRootRoute } from '@tanstack/react-router';
-import { Login } from '../components/Login';
+import { Outlet, createRootRoute } from '@tanstack/react-router';
 import QencodeLogo from '../assets/qencode.svg';
 import { Toaster } from '@/components/ui/sonner';
 

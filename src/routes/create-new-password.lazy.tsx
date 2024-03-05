@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { PasswordInput } from '@/components/ui/passwordInput';
-import { Link, createLazyFileRoute, useNavigate } from '@tanstack/react-router';
+import { createLazyFileRoute, useNavigate } from '@tanstack/react-router';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 
